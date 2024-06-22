@@ -1,0 +1,110 @@
+/* Suggest.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body.suggest-page {
+  font-family: 'Arial', sans-serif;
+  background-image: url("gif\ water.gif"); /* Replace with your background image URL */
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.suggest-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.suggest-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+  line-height: 1.6;
+  border: 2px solid #bfbc0c;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.suggest-content h1 {
+  color: #e1c702;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.suggest-content .form-group {
+  margin-bottom: 20px;
+}
+
+.suggest-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.suggest-content input[type="text"],
+.suggest-content input[type="email"],
+.suggest-content textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.suggest-content textarea {
+  height: 100px;
+}
+
+.suggest-content button {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin-left: 300px;
+  background-color: #e1c702;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suggest-content button:hover {
+  background-color: #bfbc0c;
+}
+
+@media (max-width: 600px) {
+  .suggest-content {
+    padding: 20px;
+  }
+
+  .suggest-content h1 {
+    font-size: 30px;
+  }
+
+  .suggest-content input[type="text"],
+  .suggest-content input[type="email"],
+  .suggest-content textarea {
+    font-size: 14px;
+  }
+
+  .suggest-content button {
+    font-size: 16px;
+  }
+}
